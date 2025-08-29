@@ -194,35 +194,3 @@ nav ul li a:hover::after{
 }
 
 /*--------------css for small screens---------*/
-@media only screen and (max-width: 600px){
-    .header-text{
-        margin: top 100%;
-        font-size: 16px;
-
-    }
-    .header-text h1{
-        font-size: 30px;
-        border-right: 5px solid;
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-        animation:
-            typing 2s steps(60),
-            cursor .4s step-end infinite alternate;
-    }
-    /* cursor blinking */
-    @keyframes cursor{
-        50% { border-color: transparent}
-    }
-    @keyframes typing {
-        from { width: 0}
-    }
-    .about-col-1{
-        flex-basis: 35%;
-    }
-    .about-col-1 img{
-        width:100%;
-        border-radius: 15px;
-    
-    }
-}
